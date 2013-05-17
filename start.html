@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Bulldozer Inc</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+		<meta name="Viewport" content="width=device-width; user-scaleable=no; initial-scale=1.0" />
+        <script src="js/jquery-1.5.2.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/utils.js"></script>
+    </head>
+    <body onload="start()">
+			<div id="topdiv">
+			<center><table>
+				<tr>
+					<td><img id="p" onload="this.width=window.innerWidth*8/100;" src="images/pfalse.png" onclick="press(65);"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+					<td colspan="3"><center><img id="up" onload="this.width=window.innerWidth*8/100;" src="images/up.png" onclick="press(38);"></center></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+					<td>
+				<a href="finalhome.html"><img id="p" onload="this.width=window.innerWidth*16/100;" src="images/home.gif" ></a></td>
+				</tr><tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+					<td><img id="lt" onload="this.width=window.innerWidth*8/100;" src="images/lt.png" onclick="press(37);"></td>
+					<td><img id="down" onload="this.width=window.innerWidth*8/100;" src="images/down.png" onclick="press(40);"></td>
+					<td><img id="rt" onload="this.width=window.innerWidth*8/100;" src="images/rt.png" onclick="press(39);"></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+					<td></td>
+				</tr>
+			</table></center>
+			</div>
+				<div id="main" class="container">
+				<canvas id="scene"></canvas>
+			</div>
+    </body>
+</html>
